@@ -1,0 +1,36 @@
+{
+  "name": "staytime",
+  "version": "1.0.0",
+  "description": "CLI status tool to follow you through your work-day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinMuzatko/staytime.git"
+  },
+  "keywords": [
+    "work",
+    "time",
+    "stay",
+    "leave"
+  ],
+  "author": "Martin Muzatko <martin@happy-css.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinMuzatko/staytime/issues"
+  },
+  "homepage": "https://github.com/MartinMuzatko/staytime#readme",
+  "dependencies": {
+    "@std/esm": "^0.19.1",
+    "chalk": "^2.3.0",
+    "meow": "^4.0.0",
+    "os-uptime": "^2.0.1",
+    "promisify-node": "^0.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "nodemon": "^1.14.10"
+  }
+}
